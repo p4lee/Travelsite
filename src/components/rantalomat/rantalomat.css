@@ -1,0 +1,27 @@
+.rantalomat_container {
+    padding-top: 10px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(16, 19, 19);
+    background-color: rgb(208, 108, 248);
+    min-height: 100vh;
+    
+  }
+  .ranta-h2 {
+    text-align: center;
+  }
+  
+  .ranta_pic {
+    margin: 20px 0;
+    width: 90%;
+
+  }
+
+  .fill-text {
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+  }
