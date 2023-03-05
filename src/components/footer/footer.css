@@ -4,6 +4,7 @@ footer {
   align-items: center;
   padding: 5px;
   background-color: rgb(0, 0, 124);
+  color: rgb(22, 238, 238)
 }
 
 footer .copyright {
