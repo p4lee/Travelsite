@@ -42,3 +42,27 @@ body {
     padding-top: 50px; /* adjust the value to match the height of your navbar */
     padding-bottom: 100px; /* adjust the value to match the height of your footer */
   }
+
+  /* ----------------------- Media queries (medium devices) -------------------*/
+
+@media screen and (max-width: 1024px) {
+  .content {
+      width: var(--container-width-md);
+  }
+
+  section {
+      margin-top: 6rem;
+  }
+}
+
+/* ----------------------- Media queries (small devices) -------------------*/
+
+@media screen and (max-width: 600px) {
+  .content {
+      width: var(--container-width-sm);
+  }
+
+  section > h2 {
+      margin-top: 2rem;
+  }
+}

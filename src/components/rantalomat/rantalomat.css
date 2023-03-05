@@ -1,22 +1,23 @@
 .rantalomat_container {
-    padding-top: 10px;
-    width: 70%;
+    padding: 10px;
+    width: 60%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: rgb(16, 19, 19);
-    background-color: rgb(208, 108, 248);
+    background-color: rgb(86, 86, 243);
     min-height: 100vh;
     
   }
   .ranta-h2 {
     text-align: center;
   }
+
   
   .ranta_pic {
     margin: 20px 0;
-    width: 90%;
+    width: 70%;
 
   }
 
@@ -24,4 +25,26 @@
     padding-left: 15%;
     padding-right: 15%;
     text-align: center;
+
   }
+
+    /* ----------------------- Media queries (medium devices) -------------------*/
+
+@media screen and (max-width: 1024px) { 
+
+}
+
+/* ----------------------- Media queries (small devices) -------------------*/
+
+@media screen and (max-width: 600px) {
+  .fill-text {
+        font-size: 12px;
+    }
+    .ranta-h2 {
+      font-size: 16px;
+    }
+    .ranta_pic {
+      width: 90%;
+    }
+
+}

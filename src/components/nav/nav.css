@@ -77,3 +77,28 @@
     height: 100%;
   }
   
+/* ----------------------- Media queries (medium devices) -------------------*/
+
+@media screen and (max-width: 1024px) {
+  .container {
+      width: var(--container-width-md);
+  }
+
+  .navbar__links a {
+    font-size: 16px;
+  }
+  section {
+      margin-top: 6rem;
+  }
+}
+
+/* ----------------------- Media queries (small devices) -------------------*/
+
+@media screen and (max-width: 600px) {
+
+  .navbar__links a {
+    font-size: 8px;
+  }
+
+
+}

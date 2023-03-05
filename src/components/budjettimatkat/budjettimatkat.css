@@ -1,0 +1,54 @@
+.budjettimatkat_container {
+    padding: 10px;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(16, 19, 19);
+    background-color: rgb(86, 86, 243);
+    min-height: 100vh;
+    
+  }
+  .budjettimatkat-h2 {
+    text-align: center;
+  }
+
+  .fill-text-small {
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  
+  .budjetti_pic {
+    margin: 20px 0;
+    width: 70%;
+
+  }
+
+  .fill-text {
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+
+  }
+      /* ----------------------- Media queries (medium devices) -------------------*/
+
+@media screen and (max-width: 1024px) { 
+
+}
+
+/* ----------------------- Media queries (small devices) -------------------*/
+
+@media screen and (max-width: 600px) {
+  .fill-text {
+        font-size: 12px;
+    }
+    .budjettimatkat-h2 {
+      font-size: 16px;
+    }
+    .budjetti_pic {
+      width: 90%;
+    }
+
+}
