@@ -6,7 +6,7 @@ const Rantalomat = () => {
   return (
     <div class="rantalomat_container">
   <h2 className='ranta-h2'>Haaveiletko lämpimästä ja aurinkoisesta pakopaikasta? <br/>Kiinnostaako trooppinen paratiisi kuten Malediivit tai Meksiko? </h2>
-  <img className="ranta_pic" src={IMG1} alt="Image" />
+  <img className="ranta_pic" src={IMG1}/>
   <h3 className='fill-text'>
   Kristallinkirkkailla turkoosilla vesillä, pehmeillä hiekkarannoilla ja ympärivuotisilla lämpimillä lämpötiloilla nämä kohteet tarjoavat äärimmäisen rantalomakokemuksen.
 Malediiveilla voit rentoutua ylellisissä vedenalaisissa bungaloweissa tai nauttia auringosta koskemattomilla valkoisilla hiekkarannoilla. Pulahda kristallinkirkkaisiin vesiin ja ihastele eloisaa merielämää, joka kutsuu tätä paratiisia kodiksi.
@@ -14,7 +14,7 @@ Samaan aikaan Meksikossa voit tutustua upeisiin rantakaupunkeihin, kuten Tulumii
 Riippumatta siitä, minkä kohteen valitset, rantaloma lämpimässä ja aurinkoisessa paikassa on täydellinen tapa paeta jokapäiväisen elämän stressiä ja hemmotella rentoutumista ja seikkailua. Aloita lomasi suunnittelu jo tänään ja koe äärimmäinen rantaloma Malediivien tai Meksikon lämpimillä rannoilla!
 </h3>
 
-<img className="ranta_pic" src={IMG2} alt="Image" />
+<img className="ranta_pic" src={IMG2}/>
 
 <h3 className='fill-text'>Jos etsit lomakohdetta, jossa yhdistyvät luonnonkauneus, kulttuurikokemukset ja herkullinen ruoka, kannattaa kohteeksi valita Thaimaa! <br/>Tämä upea maa tarjoaa ainutlaatuisen sekoituksen modernia mukavuutta ja muinaisia perinteitä, joten se on täydellinen paikka paeta ja tutkia.
 </h3>
