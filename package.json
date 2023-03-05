@@ -1,5 +1,6 @@
 {
   "name": "travelsite",
+  "homepage": "https://p4lee.github.io/Travelsite/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
